@@ -25,7 +25,7 @@ I initially designed a **mockup** using **Bolt.new** and then iterated on the co
 
 - You can **clone and modify this project** to create your own portfolio.
 - If you use this as a base, I’d appreciate it if you **mention my portfolio** or this repo in the footer:  
-  ➡ **[isaac-rosales.vercel.app](https://isaac-rosales.vercel.app)**
+  <!-- ➡ **[isaac-rosales.vercel.app](https://isaac-rosales.vercel.app)** -->
   ➡ **[Astro-Shadcn-portfolio](https://github.com/raulrls/Astro-Shadcn-portfolio)**
 
 ---
@@ -46,8 +46,8 @@ To run the project locally, follow these steps:
 ### 1️⃣ Clone the repository
 
 ```sh
-git clone https://github.com/raulrls/Astro-Shadcn-portfolio
-cd YOUR_PORTFOLIO_REPO
+git clone https://github.com/HGajjar17/Astro-Hiren-portfolio.git
+# cd YOUR_PORTFOLIO_REPO
 ```
 
 ```sh
