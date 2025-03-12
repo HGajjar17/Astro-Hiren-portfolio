@@ -17,20 +17,23 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Customer Insights Dashboard for E-Commerce",
-    summary: "Developed an interactive Power BI dashboard to analyze customer behavior, sales trends, and marketing performance for an e-commerce company.",
+    title: "E-Commerce Customers Address - Full Stack App (MERN Stack)",
+    summary: "Developed a full stack web application featuring a Node.js backend and a React frontend, integrating JWT for secure server-side authentication and protected routes. Implemented comprehensive CRUD operations with data managed through a MongoDB database.",
     images: [
-      "https://example.com/dashboard1.jpg",
-      "https://example.com/dashboard2.jpg",
-      "https://example.com/dashboard3.jpg"
+      "../fullstack-img/fullstack-project.gif",
+      "../fullstack-img/homepage.png",
+      "../fullstack-img/registercustomer.png",
+      "../fullstack-img/login.png",
+      "../fullstack-img/addcustomer.png",
+      "../fullstack-img/editcustomer.png",
     ],
-    tags: ["Power BI", "SQL", "Data Visualization", "Customer Analytics", "Business Intelligence"],
+    tags: ["Full Stack Development", "Node.js", "React", "JWT", "Authentication", "Protected Routes", "CRUD Operations", "MongoDB", "Web Development", "API Integration"],
     details: {
-      challenge: "The company lacked a centralized reporting system to track customer engagement, purchase patterns, and marketing campaign effectiveness.",
-      solution: "Designed and implemented a Power BI dashboard integrating data from Google Analytics, CRM systems, and sales records, providing real-time insights.",
+      challenge: "The project required the development of a secure and efficient full stack web application with seamless integration between the frontend and backend.",
+      solution: "Developed a full stack application using Node.js for the backend and React for the frontend, ensuring secure server-side authentication with JWT and implementing protected routes.",
       impact: [
-        "Increased marketing ROI by 25% through data-driven campaign adjustments.",
-        "Enhanced customer segmentation, leading to a 15% improvement in personalized recommendations and repeat purchases."
+        "Enhanced data management and operational efficiency by implementing comprehensive CRUD operations with MongoDB.",
+        "Improved security and user experience through the integration of JWT-based authentication and protected routes."
       ]
     }
   },

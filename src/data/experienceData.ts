@@ -7,29 +7,39 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
-    title: "Data Analyst",
-    company: "Tech Solutions Inc.",
-    dates: "01/2019 - 12/2022",
+    title: "Ecommerce Executive",
+    company: "Shopperbeats Technology",
+    dates: "Sep/2022 - Mar/2023",
     description: [
-      "Developed interactive Power BI dashboards to analyze business performance and customer trends.",
-      "Automated ETL processes using Python and SQL to improve data processing efficiency by 40%.",
-      "Collaborated with stakeholders to identify key performance metrics and optimize reporting strategies.",
-      "Designed predictive models to forecast revenue and customer churn, providing actionable insights.",
-      "Managed data extraction from multiple sources, including APIs, databases, and cloud storage.",
-      "Presented analytical findings to executive teams, leading to data-driven decision-making."
+      "Collaborated with cross-functional teams to upgrade product presentations across e-commerce platforms, enhancing user experience and driving business growth.",
+      "Analyzed sales data and adjusted pricing strategies using Excel to improve product visibility and boost organic traffic, resulting in increased sales performance",
     ]
   },
   {
-    title: "Software Engineer",
-    company: "Innovatech Solutions",
-    dates: "03/2023 - Present",
+    title: "Ecommerce Executive",
+    company: "Elite Decor Pvt. Ltd.",
+    dates: "Feb/2022 - Sep/2022",
     description: [
-      "Developed full-stack web applications using React, Node.js, and MongoDB.",
-      "Implemented RESTful APIs and integrated third-party services for enhanced application functionality.",
-      "Optimized SQL queries and database schemas to improve system performance.",
-      "Led a team of junior developers, mentoring them on best practices in software engineering.",
-      "Designed and implemented CI/CD pipelines, reducing deployment time by 50%.",
-      "Collaborated with UX/UI designers to enhance the user experience of web applications."
+      "Optimized Story@Home brand pages and product listings on Amazon, enhancing branding, user experience, and sales performance.",
+      "Managed product variations (size, color, pack) and used Excel for FBA distribution to ensure accurate pricing, profitability, and efficient inventory allocation.",
+    ]
+  },
+  {
+    title: "Category Manager",
+    company: "EARTHENCART Retail LLP",
+    dates: "Sep/2020 - Sep/2021",
+    description: [
+      "Developed internal tools to optimize e-commerce operations and collaborated with back-end developers.",
+      "Designed mobile app wireframes focusing on UI/UX and performance.",
+    ]
+  },
+  {
+    title: "Admin Manager",
+    company: "KISANeSTORE Pvt. Ltd.",
+    dates: "Oct/2015 - Sep/2020",
+    description: [
+      "Managed IT infrastructure, website maintenance, product visibility, and network troubleshooting.",
+      "Managed the customer support department, leading and training staff on providing excellent service to farmers, ensuring effective communication and problem resolution.",
     ]
   }
 ];
