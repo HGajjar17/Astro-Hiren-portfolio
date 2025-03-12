@@ -35,6 +35,10 @@ export const projects: Project[] = [
         "Enhanced data management and operational efficiency by implementing comprehensive CRUD operations with MongoDB.",
         "Improved security and user experience through the integration of JWT-based authentication and protected routes."
       ]
+    },
+    externalLink: {
+      title: "GitHub Repository",
+      url: "https://github.com/NSCC-ITC-Fall2024-PROG3017-700-MCa/my-fullstack-app-HGajjar17"
     }
   },
   {
