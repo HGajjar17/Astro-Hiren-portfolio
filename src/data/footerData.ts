@@ -17,6 +17,6 @@ export const footerData = {
       icon: 'Mail'
     }
   ],
-  quote: '"Code is like humor. When you have to explain it, it’s bad."',
-  githubCodeLink: 'https://github.com/raulrls/Astro-Shadcn-portfolio'
+  quote: '"Programming isn\'t about what you know; it\'s about what you can figure out."',
+  githubCodeLink: 'https://github.com/HGajjar17/Astro-Hiren-portfolio'
 };

@@ -114,7 +114,12 @@ const Hero = () => {
           {heroData.title}
         </p>
         <p className="mb-8 max-w-2xl text-muted-foreground">
-          {heroData.description}
+          {heroData.description.split("\n").map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}
         </p>
         <div className="mb-12 flex space-x-4">
           <div className="relative group">
@@ -156,11 +161,14 @@ const Hero = () => {
           </div>
         </div>
         <div className="mb-4 flex flex-wrap gap-2">
-          {heroData.skills.map((skill) => (
-            <Badge key={skill} variant="secondary" className="text-sm">
-              {skill}
-            </Badge>
-          ))}
+          {heroData.skills.map((skill) => {
+            const IconComponent = skill.icon;
+            return (
+              <Badge key={skill.name} variant="secondary" className="text-sm flex items-center gap-1">
+                <IconComponent className="text-lg" /> {skill.name}
+              </Badge>
+            );
+          })}
         </div>
       </div>
     </div>
