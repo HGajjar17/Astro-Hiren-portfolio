@@ -105,7 +105,11 @@ const ProjectCard = ({ project }: { project: Project }) => {
   return (
     <Card className="mb-8 overflow-hidden">
       <CardHeader>
-        <h3 className="text-2xl font-bold">{project.title}</h3>
+        <h3 className="text-2xl font-bold">
+        <a href={project.externalLink?.url} target="_blank" rel="noopener noreferrer">
+            {project.title}
+        </a>
+          </h3>
       </CardHeader>
       <CardContent className="space-y-6">
         <ProjectCarousel images={project.images} />

@@ -37,8 +37,8 @@ export const projects: Project[] = [
       ]
     },
     externalLink: {
-      title: "GitHub Repository",
-      url: "https://github.com/NSCC-ITC-Fall2024-PROG3017-700-MCa/my-fullstack-app-HGajjar17"
+      title: "Live Project Demo (Give Little Loading Time)",
+      url: "https://w0476424-fullstack.onrender.com/"
     }
   },
   {
