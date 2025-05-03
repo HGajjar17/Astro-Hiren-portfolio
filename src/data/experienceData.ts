@@ -7,39 +7,43 @@ export type Job = {
 
 export const jobs: Job[] = [
   {
-    title: "Ecommerce Executive",
+    title: "Shopify CMS & E-commerce Product Specialist",
     company: "Shopperbeats Technology",
-    dates: "Sep/2022 - Mar/2023",
+    dates: "Sep 2022 - Mar 2023",
     description: [
-      "Collaborated with cross-functional teams to upgrade product presentations across e-commerce platforms, enhancing user experience and driving business growth.",
-      "Analyzed sales data and adjusted pricing strategies using Excel to improve product visibility and boost organic traffic, resulting in increased sales performance",
+      "Managed global product listings across Shopify for brands in Australia, Canada, and the USA.",
+      "Optimized SEO, metadata, and variant mapping for enhanced storefront UX and backend accuracy.",
+      "Handled imports from vendor portals and ensured structured layouts for categories and collections."
     ]
   },
   {
-    title: "Ecommerce Executive",
-    company: "Elite Decor Pvt. Ltd.",
-    dates: "Feb/2022 - Sep/2022",
+    title: "Amazon Product Listings Associate",
+    company: "Elite Decor Pvt. Ltd. (Story@Home)",
+    dates: "Feb 2022 - Sep 2022",
     description: [
-      "Optimized Story@Home brand pages and product listings on Amazon, enhancing branding, user experience, and sales performance.",
-      "Managed product variations (size, color, pack) and used Excel for FBA distribution to ensure accurate pricing, profitability, and efficient inventory allocation.",
+      "Created variation listings using Amazon flat files, improving catalog structure and discoverability.",
+      "Optimized product titles, bullet points, and images to increase search ranking and conversion.",
+      "Resolved ASIN suppressions and storefront inconsistencies across devices."
     ]
   },
   {
-    title: "Category Manager",
+    title: "Category Manager (Web & Content Operations)",
     company: "EARTHENCART Retail LLP",
-    dates: "Sep/2020 - Sep/2021",
+    dates: "Sep 2020 - Sep 2021",
     description: [
-      "Developed internal tools to optimize e-commerce operations and collaborated with back-end developers.",
-      "Designed mobile app wireframes focusing on UI/UX and performance.",
+      "Conducted UX analysis and created wireframes in Figma for product and checkout flows.",
+      "Collaborated cross-functionally to finalize responsive UI prototypes for web and mobile.",
+      "Trained vendors on CMS operations for content uploads and layout optimization."
     ]
   },
   {
-    title: "Admin Manager",
+    title: "Web Layout & CMS Coordinator (Admin Manager)",
     company: "KISANeSTORE Pvt. Ltd.",
-    dates: "Oct/2015 - Sep/2020",
+    dates: "Oct 2015 - Sep 2020",
     description: [
-      "Managed IT infrastructure, website maintenance, product visibility, and network troubleshooting.",
-      "Managed the customer support department, leading and training staff on providing excellent service to farmers, ensuring effective communication and problem resolution.",
+      "Led CMS layout design for banners, carousels, and category structures on e-commerce storefront.",
+      "Managed hundreds of vendor product uploads with consistent SEO, pricing, and imagery updates.",
+      "Maintained internal IT infrastructure and trained customer service teams on CMS workflows."
     ]
   }
 ];

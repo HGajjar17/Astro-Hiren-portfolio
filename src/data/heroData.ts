@@ -4,8 +4,7 @@ import { SiNextdotjs, SiLaravel } from "react-icons/si";
 export const heroData = {
   name: 'Hiren Gajjar',
   title: 'Web Developer',
-  description: `A passionate IT Web Programming student at NSCC with a strong foundation in web development, programming, and e-commerce platforms. Skilled in designing, developing, and managing websites and online systems using cutting-edge technologies.
-Currently seeking an internship or entry-level role in a dynamic, inclusive team to apply technical expertise, contribute to innovative web projects, and grow through continuous learning opportunities.`,
+  description: `A motivated Web Developer with a diploma in IT Web Programming from NSCC and hands-on experience managing CMS platforms across Shopify, WordPress, and Amazon Seller Central. Skilled in building responsive, user-focused web applications using modern technologies such as React, Next.js, Laravel, and ASP.NET. Currently seeking an internship or junior developer role to apply technical expertise, contribute to impactful digital solutions, and continue growing within a collaborative, innovation-driven environment.`,
   profilePicture: './../profile-photo4.jpg',
   skills: [
     { name: "JavaScript", icon: FaJs },
