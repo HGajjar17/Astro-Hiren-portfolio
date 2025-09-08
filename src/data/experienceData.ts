@@ -11,6 +11,7 @@ export const jobs: Job[] = [
     company: "Best Buy Canada / Geek Squad",
     dates: "Aug 2025 - Present",
     description: [
+
       "Delivered front-line technical support for computer setup, diagnostics, and repairs, resolving 
 hardware/software issues to restore functionality and minimize downtime."
 ,
