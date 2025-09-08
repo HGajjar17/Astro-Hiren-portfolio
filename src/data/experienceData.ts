@@ -12,11 +12,11 @@ export const jobs: Job[] = [
     dates: "Aug 2025 - Present",
     description: [
       "Delivered front-line technical support for computer setup, diagnostics, and repairs, resolving 
-hardware/software issues to restore functionality and minimize downtime.",
-
+hardware/software issues to restore functionality and minimize downtime."
+,
       "Guided customers through personalized tech solutions by assessing needs, configuring systems, and 
-recommending appropriate devices, ensuring improved user satisfaction.",
-
+recommending appropriate devices, ensuring improved user satisfaction."
+,
       "Trained customers on safe and efficient technology usage, strengthening digital confidence and 
 reducing repeat support requests."
     ]
