@@ -67,28 +67,30 @@ export const projects: Project[] = [
       url: "https://github.com/HGajjar17/GameForum"
     }
   },
-  // {
-  //   id: 3,
-  //   title: "Laravel Chirper (MVC)",
-  //   summary: "Showcased the MVC model using Laravel, integrated with Data Grid, Tailwind CSS, Dockerfile, and Blade PHP.",
-  //   images: [
-  //     "https://example.com/laravelchirper1.jpg",
-  //     "https://example.com/laravelchirper2.jpg"
-  //   ],
-  //   tags: ["Laravel", "MVC", "Artisan", "PHP", "Tailwind CSS", "Docker", "Blade PHP"],
-  //   details: {
-  //     challenge: "The goal was to demonstrate the MVC architecture and integrate various modern web development tools and packages.",
-  //     solution: "Developed a Laravel project using the Artisan package, leveraging JetBrains Toolbox in PHP Storm. Incorporated Data Grid, Tailwind CSS, Dockerfile, and Blade PHP for enhanced functionality and styling.",
-  //     impact: [
-  //       "Demonstrated a scalable and maintainable web application structure with Laravel.",
-  //       "Provided a comprehensive example of integrating modern web development tools and practices."
-  //     ]
-  //   },
-  //   externalLink: {
-  //     title: "GitHub Repository",
-  //     url: "https://github.com/NSCC-ITC-Fall2024-INET2005-700-MCa/finalassignment-HGajjar17"
-  //   }
-  // },
+  {
+    id: 3,
+    title: "Pokemon Search API - Vite Project",
+    summary: "Built an interactive Pokemon search application using Vite and React, leveraging the PokeAPI to fetch and display real-time Pokemon data with a dynamic and responsive user interface.",
+    images: [
+      "../poke-img/pokemon-app.png",
+      "../poke-img/search-feature.png",
+      "../poke-img/pokemon-details.png",
+    ],
+    tags: ["Vite", "React", "PokeAPI", "API Integration", "Search Functionality", "Responsive Design", "JavaScript", "Frontend Development"],
+    details: {
+      challenge: "Create an interactive and responsive web application that efficiently fetches and displays Pokemon data from an external API with real-time search functionality.",
+      solution: "Developed a Vite-based React application that consumes the PokeAPI (https://pokeapi.co/api/v2/pokemon?limit=130) to display Pokemon information. Implemented search functionality, pagination, and a clean, user-friendly interface with responsive design.",
+      impact: [
+        "Demonstrated proficiency in modern frontend development with Vite and React.",
+        "Implemented efficient API integration and data fetching from a third-party REST API.",
+        "Created an intuitive user experience with search capabilities and detailed Pokemon information display."
+      ]
+    },
+    externalLink: {
+      title: "Live Project Demo",
+      url: "https://test-poke-sigma.vercel.app/"
+    }
+  },
   {
     id: 4,
     title: "JAVA MVC",

@@ -11,7 +11,7 @@ const TimelineDot = () => (
 export default function ExperienceSection() {
   return (
     <section className="bg-background">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 max-w-4xl">
         <h2 className="text-3xl font-bold mb-8 text-center">Work Experience</h2>
         <div className="relative border-l border-gray-200 dark:border-gray-700 ml-3">
           {jobs.map((job, index) => (
